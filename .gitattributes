@@ -1,0 +1,2 @@
+# Tool config files that must stay JavaScript (.mjs) are excluded from GitHub's language stats
+*.config.mjs linguist-detectable=false
