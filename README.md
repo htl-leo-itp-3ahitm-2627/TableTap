@@ -23,7 +23,7 @@ TableTap is a web app that lets restaurants manage **orders**, **tables** and th
 - [Team](#team)
 - [The Problem](#the-problem)
 - [Goals](#goals)
-- [Features](#features)
+- [Milestones](#milestones)
 - [Target Audience & Roles](#target-audience--roles)
 - [Architecture & Tech Stack](#architecture--tech-stack)
 - [Project Structure](#project-structure)
@@ -46,7 +46,8 @@ TableTap is a web app that lets restaurants manage **orders**, **tables** and th
 | **Client** | Next.js + Tailwind CSS set up, empty start page |
 | **Server** | Dependencies installed (Express, mysql2, TypeScript), folder structure in place, no implementation yet |
 | **Database** | Not created yet |
-| **Last updated** | 2026-11-13 |
+| **Next milestone** | M1: project proposal approved (27.11.2026) |
+| **Last updated** | 2026-11-19 |
 
 ---
 
@@ -99,16 +100,18 @@ Friday, 7 pm, a full restaurant. The waiter writes the order on a slip of paper 
 
 ---
 
-## Features
+## Milestones
 
-| # | Feature | Description | Status |
-| :---: | :--- | :--- | :---: |
-| 01 | **QR ordering at the table** | Guests scan the QR code on the table and order from their own phone, no app needed. | Planned |
-| 02 | **Live kitchen display** | New orders appear instantly via WebSockets, no reload. The kitchen sets the status (`new`, `in progress`, `ready`). | Planned |
-| 03 | **Table plan & reservations** | Overview of who sits where and which tables are free. | Planned |
-| 04 | **Roles & permissions** | Service staff, kitchen and owners only see their part of the app. | Planned |
-| 05 | **Menu management** | Maintain dishes, prices and options in one place. | Planned |
-| 06 | **Revenue statistics** | Daily revenue, peak hours and best-sellers at a glance. | Planned |
+Each milestone is a date by which a result can be checked with a plain yes or no.
+
+| # | Due | Milestone | Evidence | Confirmed by | Status |
+| :---: | :---: | :--- | :--- | :--- | :---: |
+| M1 | 27.11.2026 | The project proposal is approved by the teacher. | Signed proposal | Teacher | Open |
+| M2 | 18.12.2026 | The clickable Figma prototype of the 5 main screens (guest menu, cart, kitchen display, table plan, owner statistics) has been tested with 3 test users. | Figma link and test protocol | Teacher, test users | Open |
+| M3 | 29.01.2027 | The MySQL database runs with 5 tables (users, tables, menu items, orders, reservations) filled with test data. | Schema and seed data in the repository, live demo | Teacher in the review | Open |
+| M4 | 19.03.2027 | An order placed by scanning a table's QR code is saved in the database and appears on the kitchen display within 3 seconds, without a reload. | Live demo with 3 test orders | Teacher in the review | Open |
+| M5 | 07.05.2027 | All 6 core features (QR ordering, live kitchen display, table plan & reservations, roles & permissions, menu management, revenue statistics) are implemented and have been beta-tested by 5 people. | Test protocol and bug list | Test users, teacher | Open |
+| M6 | 04.06.2027 | The project is submitted and the final presentation has been held. | Final state in the repository, presentation | Teacher | Open |
 
 ---
 
