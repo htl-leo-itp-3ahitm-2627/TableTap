@@ -21,6 +21,7 @@ For a short project overview, setup instructions and the current status, see the
 | Document | Description | Status |
 | :--- | :--- | :---: |
 | [Project Pitch](Pitch/TableTap_Pitch.pdf) | Original pitch: problem, target audience, USP, tech stack, discarded ideas | Done |
+| [Diplomarbeitsantrag](diplomarbeitsantrag.md) | Diploma thesis proposal (German), based on the school template | Done |
 | `architecture.md` | System architecture, client/server communication, WebSocket flow | Planned |
 | `database.md` | Database model, ER diagram, table descriptions | Planned |
 | `api.md` | Full REST API reference with request and response examples | Planned |
