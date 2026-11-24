@@ -1,3 +1,5 @@
+<img src="docs/logo/tabletap-icon.png" alt="TableTap logo" width="120">
+
 # TableTap
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

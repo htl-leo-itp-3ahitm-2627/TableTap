@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TableTap">
+  <defs>
+    <pattern id="gingham" width="56" height="56" patternUnits="userSpaceOnUse">
+      <rect width="56" height="56" fill="#EEE8DE"/>
+      <rect width="28" height="56" fill="#8A8B73" opacity=".55"/>
+      <rect width="56" height="28" fill="#8A8B73" opacity=".55"/>
+    </pattern>
+    <clipPath id="card"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="512" height="512" fill="url(#gingham)"/>
+    <rect x="48" y="48" width="416" height="416" rx="72" fill="#4A322D"/>
+    <!-- receipt -->
+    <g transform="rotate(-6 256 250)">
+      <path d="M156 110 H356 V368 l-20 16 -20 -16 -20 16 -20 -16 -20 16 -20 -16 -20 16 -20 -16 -20 16 -20 -16 Z" fill="#F5F1E8"/>
+      <rect x="186" y="146" width="140" height="16" rx="8" fill="#4A322D"/>
+      <line x1="184" y1="190" x2="328" y2="190" stroke="#4A322D" stroke-width="6" stroke-dasharray="10 8"/>
+      <rect x="186" y="214" width="110" height="12" rx="6" fill="#8A8B73"/>
+      <rect x="186" y="246" width="80" height="12" rx="6" fill="#8A8B73"/>
+      <rect x="186" y="278" width="96" height="12" rx="6" fill="#8A8B73"/>
+    </g>
+    <!-- tap -->
+    <circle cx="352" cy="352" r="62" fill="none" stroke="#EEE8DE" stroke-width="10" opacity=".45"/>
+    <circle cx="352" cy="352" r="38" fill="#8A8B73" stroke="#EEE8DE" stroke-width="10"/>
+  </g>
+</svg>
